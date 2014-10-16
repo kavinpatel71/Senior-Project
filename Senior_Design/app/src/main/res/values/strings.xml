@@ -12,5 +12,9 @@
     <string name="title_activity_guide__main__page">Guide_Main_Page</string>
     <string name="nyit_logo">nyit_logo</string>
     <string name="title_activity_ow__transportation">OW_Transportation</string>
+    <string name="title_activity_man_transportation">man_transportation</string>
+    <string name="title_activity_man__transportation">Man_Transportation</string>
+    <string name="title_activity_ow__emergency">OW_Emergency</string>
+    <string name="title_activity_man__emergency">Man_Emergency</string>
 
 </resources>

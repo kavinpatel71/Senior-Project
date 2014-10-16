@@ -44,6 +44,18 @@
             android:name=".OW_Transportation"
             android:label="@string/title_activity_ow__transportation" >
         </activity>
+        <activity
+            android:name=".Man_Transportation"
+            android:label="man__transportation" >
+        </activity>
+        <activity
+            android:name=".OW_Emergency"
+            android:label="ow__emergency" >
+        </activity>
+        <activity
+            android:name=".Man_Emergency"
+            android:label="man__emergency" >
+        </activity>
     </application>
 
 </manifest>

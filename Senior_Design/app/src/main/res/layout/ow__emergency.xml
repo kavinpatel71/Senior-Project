@@ -6,10 +6,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".OW_Transportation"
-    android:background="#ffffb80b"
-    android:id="@+id/"
-    android:clickable="false">
+    tools:context=".OW_Emergency"
+    android:background="#ffffb80b">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -25,17 +23,17 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Old Westbury Campus"
         android:id="@+id/textView"
-        android:layout_marginTop="20dp"
         android:textColor="#ff2d47ff"
         android:textSize="30sp"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Transportation"
+        android:text="Emergency Info"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -45,85 +43,52 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Students without a car will find easy transportation through various bus services available at the Old Westbury campus and the SUNY Residence Halls. There is also a Bike Share program available!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Office of Campus Security is responsible for the safety and security of students, staff and faculty members, and property. Service is provided campus-wide 24 hours a day, 365 days a year at the Old Westbury and Central Islip locations. Security is provided at the Manhattan campus whenever the buildings are open. All security guards are trained in emergency response procedures (fire, bomb threat, and medical emergencies)."
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:textSize="18sp"
         android:textColor="#ff000000"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="NYIT Shuttle Bus Schedules"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="In an emergency, call 911 first."
         android:id="@+id/textView4"
-        android:linksClickable="true"
-        android:textSize="20sp"
-        android:clickable="true"
-        android:autoLink="web"
-        android:textColor="#ff2d47ff"
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="false"
-        android:layout_marginTop="20dp" />
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Shuttle to LIRR-Manhasset"
+        android:text="Old Westbury Campus Security - 516.686.7789"
         android:id="@+id/textView5"
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="#ff2d47ff"
-        android:clickable="true"
-        android:autoLink="web"
-        android:textSize="20sp" />
+        android:textColor="#ff020202"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="SUNY Bus Schedule"
+        android:text="Local Police Department - 516.626.0200"
         android:id="@+id/textView6"
         android:layout_below="@+id/textView5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="#ff2d47ff"
-        android:textSize="20sp"
-        android:autoLink="web"
-        android:clickable="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="N20 Bus Schedule"
-        android:id="@+id/textView7"
-        android:layout_below="@+id/textView6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20sp"
-        android:autoLink="web"
-        android:clickable="true"
-        android:textColor="#ff2d47ff" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Parking Regulations "
-        android:id="@+id/textView8"
-        android:layout_below="@+id/textView7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20sp"
-        android:clickable="true"
-        android:autoLink="web"
-        android:textColor="#ff2d47ff" />
-
+        android:textColor="#ff000000"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp" />
 </RelativeLayout>
