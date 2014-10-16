@@ -24,6 +24,18 @@
             android:name=".Hotels_OW"
             android:label="@string/title_activity_hotels__ow" >
         </activity>
+        <activity
+            android:name=".ow_points_of_interest"
+            android:label="@string/title_activity_ow_points_of_interest" >
+        </activity>
+        <activity
+            android:name=".manhattan_points_of_interest"
+            android:label="@string/title_activity_manhattan_points_of_interest" >
+        </activity>
+        <activity
+            android:name=".Manhattan_Restaurants"
+            android:label="@string/title_activity_manhattan__restaurants" >
+        </activity>
     </application>
 
 </manifest>
