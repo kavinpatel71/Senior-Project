@@ -20,7 +20,11 @@
         android:padding="@dimen/activity_vertical_margin"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginTop="80dp" />
+=======
+        android:layout_marginTop="73dp" />
+>>>>>>> origin/master
 
     <Button
         android:layout_width="wrap_content"
@@ -29,12 +33,13 @@
         android:id="@+id/button2"
         android:textColor="#ffffffff"
         android:background="#ff3566ff"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="44dp"
         android:clickable="true"
         android:singleLine="false"
         android:padding="@dimen/activity_horizontal_margin"
         android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button" />
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,9 +50,15 @@
         android:longClickable="false"
         android:background="#ff3566ff"
         android:padding="@dimen/activity_horizontal_margin"
+<<<<<<< HEAD
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp" />
+=======
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+>>>>>>> origin/master
 
     <TextView
         android:layout_width="wrap_content"
