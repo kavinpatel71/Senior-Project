@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Old Westbury"
+        android:text="Manhattan"
         android:id="@+id/textView3"
         android:typeface="normal"
         android:layout_below="@+id/imageView"
