@@ -42,6 +42,7 @@
         android:layout_below="@+id/Local Restaurants"
         android:layout_centerHorizontal="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_marginTop="34dp"
         android:textColor="#000000" />
 
@@ -66,6 +67,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+=======
+        android:layout_marginTop="34dp" />
+>>>>>>> parent of 9a17a19... pics added
 =======
         android:layout_marginTop="34dp" />
 >>>>>>> parent of 9a17a19... pics added
