@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
-        android:src="@drawable/OW_Points_of_Interest_converted"
+        android:src="@drawable/ow_points_of_interest_converted"
         android:scaleType="fitXY"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
