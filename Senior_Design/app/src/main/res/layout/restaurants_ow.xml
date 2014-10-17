@@ -30,8 +30,7 @@
         android:typeface="normal"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:textColor="#ff000000" />
+        android:layout_marginTop="44dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,6 +41,7 @@
         android:typeface="normal"
         android:layout_below="@+id/Local Restaurants"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginTop="34dp"
         android:textColor="#000000" />
 
@@ -66,5 +66,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+=======
+        android:layout_marginTop="34dp" />
+>>>>>>> parent of 9a17a19... pics added
 
 </RelativeLayout>
