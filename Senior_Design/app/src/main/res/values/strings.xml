@@ -5,6 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_manhattan__main__page">Manhattan Main Page</string>
+<<<<<<< HEAD
     <string name="title_activity_hotels__ow">Hotels_OW</string>
     <string name="title_activity_ow_points_of_interest">Old Westbury Points of Interest</string>
     <string name="title_activity_manhattan_points_of_interest">Manhattan Points of Interest</string>
@@ -16,5 +17,7 @@
     <string name="title_activity_man__transportation">Man_Transportation</string>
     <string name="title_activity_ow__emergency">OW_Emergency</string>
     <string name="title_activity_man__emergency">Man_Emergency</string>
+=======
+>>>>>>> parent of ece3c76... hotels_OW
 
 </resources>

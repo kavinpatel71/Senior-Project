@@ -20,6 +20,7 @@
             android:name=".Manhattan_Main_Page"
             android:label="@string/title_activity_manhattan__main__page" >
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".Hotels_OW"
             android:label="@string/title_activity_hotels__ow" >
@@ -56,6 +57,8 @@
             android:name=".Man_Emergency"
             android:label="man__emergency" >
         </activity>
+=======
+>>>>>>> parent of ece3c76... hotels_OW
     </application>
 
 </manifest>
