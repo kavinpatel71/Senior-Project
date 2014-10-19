@@ -53,8 +53,12 @@
         android:textColor="#ffffffff"
         android:background="#ff3566ff"
         android:padding="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
         android:layout_marginTop="44dp"
         android:layout_below="@+id/textView"
+=======
+        android:layout_centerVertical="true"
+>>>>>>> parent of ce2956a... commit
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -76,12 +80,38 @@
         android:layout_height="wrap_content"
         android:text="Emergency Information"
         android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
         android:textColor="#ffffffff"
         android:longClickable="false"
         android:background="#ff3566ff"
+<<<<<<< HEAD
         android:padding="@dimen/activity_horizontal_margin"
         android:layout_marginTop="42dp"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
+=======
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Old Westbury Campus"
+        android:id="@+id/textView"
+        android:layout_marginTop="62dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:typeface="normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nyit_logo" />
+>>>>>>> parent of ce2956a... commit
 
 </RelativeLayout>
